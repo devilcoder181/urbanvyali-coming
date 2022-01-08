@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Urbanvyali</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        html,body{
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .inner_{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            animation: bgColor 2s linear infinite;
+        }
+
+        .inner_ img{
+            position: relative;
+            display: block;
+            width: 25vw;
+            height: auto;
+        }
+
+        @media only screen and (max-width:767px){
+            .inner_ img{
+                width: 50vw;
+            }
+        }
+
+        @keyframes bgColor {
+            10%{background-color:#FFEB00 ;}
+            20%{background-color: #FC0019;}
+            30%{background-color: #01FF4F;}
+            40%{background-color: #FF01D7;}
+            50%{background-color: #5600CC;}
+            60%{background-color: #00EDF5;}
+            70%{background-color: #00EDF5;}
+            80%{background-color: #652E8D;}
+            90%{background-color: #C83B6C;}
+            100%{background-color: #F38046;}
+        }
+    </style>
+  </head>
+  <body>
+      
+   <main class="inner_">
+    <img src="./bg-01.png">
+   </main>
+  </body>
+</html>
